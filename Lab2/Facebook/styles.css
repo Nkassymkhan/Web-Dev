@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background: #F0F2F5;
+
+}
+
+form{
+    background-color:#fff;
+    position: absolute;
+    width: 396px;
+    height: 315px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+.form1{
+    position: absolute;
+    width: 396px;
+    padding: 10px 5px 20px 5px;
+    margin: 34vh 850px;
+    text-align: center;
+}
+.sub-cont{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+input[type = 'text'], input[type = 'password']{
+    display: block;
+    background-color: #ffffff;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    width: 304px;
+    padding: 2px 40px;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    cursor: text;
+    height: 52px;
+}
+
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 387px;
+    height: 48px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.for-pass{
+    display: block;
+    color: #1877f2;
+    width: 200px;
+    margin: auto;
+    padding-left: 80px;
+    font-family: "Segoe UI";
+    font-weight: 400 ;
+
+}
+.line{
+    border-top:1px solid #222;
+    opacity: 0.2;
+}
+
+.space{
+    color: #737373;
+    width: 968px;
+    margin-left: 255px;
+    margin-top: 5px;
+}
+
+.create-button{
+    border: none;
+    background-color: #42B72A;
+    width: 230px;
+    font-size: 17px;
+    height: 48px;
+
+}
+
+.container{
+    width: 368px;
+    margin-left: 300px;
+    margin-top: 30vh;
+
+}
+
+.container img{
+    width: 301px;
+    margin: -28px;
+
+}
+
+.word-cont{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-top: 2vh;
+}
+
+.low-cont{
+    margin-top: 30vh;
+}
+
+.bot-button{
+    width: 30px;
+    height: 20px;
+    padding: 0 8px;
+    margin-left: 12px;
+    background-color: #F0F2F5;
+    color: #1c1e21;
+    box-shadow: 0px 0px 1px 1px;
+}
+
+.ul{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    direction: ltr;
+    line-height: 1.34;
+    padding-top: 8px;
+    word-spacing: 10px;
+    letter-spacing: normal;
+    text-align: start;
+    text-align-last: auto;
+    text-indent: 0px;
+    white-space: normal;
+    word-break: normal;
+}
+
+.bottom{
+    background-color: #ffffff;
+
+}
+
+.low-tab{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    direction: ltr;
+    line-height: 1.34;
+    padding-top: 8px;
+    word-spacing: 14px;
+    letter-spacing: normal;
+    text-align: start;
+    text-align-last: auto;
+    text-indent: 0px;
+    white-space: normal;
+    word-break: normal;
+}
+
+.auth{
+    word-spacing: normal;
+}

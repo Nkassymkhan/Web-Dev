@@ -1,0 +1,115 @@
+body{
+    font-family:  "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    margin-top: 8px;
+    margin-left: 100px;
+}
+
+.heading{
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+}
+
+.background {
+    margin-left: -8px;
+}
+
+.foreground {
+    margin-top: -320px;
+    margin-left: 160px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link-group{
+    display: flex;
+}
+
+.for-one {
+    display: inline-block;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    background-color: rgb(25,109,188);
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    font-size: 15px;
+    line-height: 1;
+    margin-top: 40px;
+}
+
+.for-six{
+    box-sizing: border-box;
+    font-weight: 600;
+    color: black;
+    margin-top: 47px;
+    margin-left: 30px;
+}
+
+.container {
+    margin-top: 230px;
+    display: flex;
+    margin-left: 85px;
+}
+
+.info {
+    font-size: 12.5px;
+}
+
+.links {
+    font-weight: 600;
+    color: rgb(25,109,188);
+    font-size: 13px;
+    margin-top: 15px ;
+}
+
+.second, .third, .forth{
+    margin-left: 25px;
+}
+a {
+    text-decoration:none;
+    color : rgb(80, 81, 84);
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 110px;
+    height: 23px;
+}
+
+.right {
+    padding-left: 300px;
+}
+
+
+#lupa {
+    margin-right: 15px;
+    padding-left: 5px;
+}
+
+#cart{
+    margin-right: 20px;
+    margin-top: -4px;
+
+}
+
+#sign{
+    margin-top: -4px;
+    margin-left: 6px;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+#link {
+    margin: 8px;
+}
