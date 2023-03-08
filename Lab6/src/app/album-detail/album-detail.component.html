@@ -1,0 +1,24 @@
+<ul>
+    <li>
+        UserId: {{album.userId}}
+    </li>
+    <li>
+        id: {{album.id}}
+    </li>
+    <li>
+        Title: {{album.title}}
+    </li>
+</ul>
+
+<button (click)="edit()">Edit title</button><br>
+<div *ngIf="is_edit">
+    <form>
+        <input type="text" [(ngModel)]="newTitle" name="input_title">
+        <!-- <input type="submit" value="Save"> -->
+        <button (click)="updateAlbum()">Save</button>
+    </form>
+</div>
+
+<button><a routerLink="photos">Photos</a></button><br>
+
+<button><a routerLink="/albums">Return back</a></button>
